@@ -1,0 +1,26 @@
+import Image from "next/image"
+export default function Hero(){
+  return (
+    <section id="top" className="relative">
+      <div className="relative max-w-[1200px] mx-auto px-6 py-20 grid md:grid-cols-2 gap-10 items-center">
+        <div>
+          <p className="uppercase text-muted tracking-[.2em] text-sm">Professional-grade energy</p>
+          <h1 className="text-4xl md:text-5xl font-extrabold leading-tight mt-2">
+            Quiet power. Day and night.<br/>Scale from 5kWh to megawatt-class.
+          </h1>
+          <p className="text-muted mt-4">
+            Powering the future with intelligence, storage, and light. UL-certified LiFePO4 batteries, premium inverters, and UPS-class transfer for homes and commercial sites.
+          </p>
+          <div className="flex gap-3 flex-wrap mt-6">
+            <a href="#contact" className="px-4 py-2 rounded-full border border-accent shadow-lux">Design my system ?</a>
+            <a href="#how" className="px-4 py-2 rounded-full border border-line">How it works</a>
+          </div>
+        </div>
+        <div className="relative h-[380px] rounded-2xl border border-line shadow-lux overflow-hidden">
+          <Image src="/images/hero-battery.webp" alt="LUX battery hero" fill priority className="object-cover" />
+        </div>
+      </div>
+    </section>
+  )
+}
+

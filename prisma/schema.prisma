@@ -1,0 +1,24 @@
+// Optional Postgres models if you add a DB later:
+// datasource db { provider = "postgresql" url = env("DATABASE_URL") }
+// generator client { provider = "prisma-client-js" }
+//
+// model Product {
+//   id        String   @id @default(cuid())
+//   slug      String   @unique
+//   name      String
+//   summary   String
+//   price     Int
+//   tags      String[]
+//   imageUrl  String
+//   createdAt DateTime @default(now())
+// }
+//
+// model Lead {
+//   id        String   @id @default(cuid())
+//   name      String
+//   email     String
+//   phone     String?
+//   zip       String?
+//   notes     String?
+//   createdAt DateTime @default(now())
+// }
