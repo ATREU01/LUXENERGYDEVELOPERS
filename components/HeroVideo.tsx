@@ -23,7 +23,7 @@ export default function HeroVideo(){
             Scalable power for modern sites.
           </h1>
           <p className="text-muted mt-4 max-w-2xl">
-            Modular LiFePO4 storage, hybrid inverters, and engineered backup. From homes to data centers.
+            Modular LiFePO4 storage, hybrid inverters, and engineered backup. For commercial to data centers.
           </p>
           <div className="mt-6 flex gap-3 flex-wrap">
             <a href="#contact" className="px-5 py-2.5 rounded-full border border-accent shadow-lux">Design My System</a>
