@@ -20,7 +20,7 @@ export default function HeroVideo(){
         <div>
           <p className="uppercase text-muted tracking-[.2em] text-xs">LUX ENERGY DEVELOPERS</p>
           <h1 className="text-5xl md:text-6xl font-extrabold leading-[1.05] mt-2">
-            Quiet, scalable power for modern sites.
+            Scalable power for modern sites.
           </h1>
           <p className="text-muted mt-4 max-w-2xl">
             Modular LiFePO4 storage, hybrid inverters, and engineered backup. From homes to data centers.
